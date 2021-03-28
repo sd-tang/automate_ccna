@@ -1,0 +1,22 @@
+This exercise is to write a script that telnet to multiple switches to configure
+its VLAN. It will utilize the python telnetlib.
+
+To start the lab build the topology and configure the following in all switches:
+1) Change hostname as good practice.
+2) Configure enable password.
+3) Configure local username and password, with privilege 15.
+4) Configure vty line to accept local login and transport mode set to all.
+5) Configure VLAN 1 IP addresses, make sure interface is up.
+
+On the Network Automation node:
+1) Enable DHCP to assign IP from NAT cloud.
+2) Make sure able to ping every switch.
+3) Create a file listing IP address of every switch.
+
+Automate VLAN configuration on Network Automation node:
+1) Run the script conf_vlan.py, and enter credentials as set earlier.
+2) Enter the name of file (myswitches) to retrieve switch IP list.
+
+Retrieving config and write output to file on Network Automation node:
+1) Run the script save_output.py.
+2) Check that multiple files containing each switch's configuration are created in directory.
