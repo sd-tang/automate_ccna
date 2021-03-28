@@ -6,7 +6,8 @@ To start the lab build the topology and configure the following in all switches:
 2) Configure enable password.
 3) Configure local username and password, with privilege 15.
 4) Configure vty line to accept local login and transport mode set to all.
-5) Configure VLAN 1 IP addresses, make sure interface is up.
+5) Configure VLAN 1 IP addresses, make sure they are in the same subnet as the Linux docker.
+6) Make sure interface is up and nodes are able to ping each other.
 
 On the Network Automation node:
 1) Enable DHCP to assign IP from NAT cloud.
