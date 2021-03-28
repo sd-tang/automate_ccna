@@ -1,0 +1,10 @@
+This folder contains my effort at automating my CCNA labs. It will start with
+basic scripting on simpler topology while slowly moving towards modern automation
+techniques utilizing APIs.
+
+My main source of lab topology and scripting comes from:
+1) CCNA course - David Bombal
+2) GNS3a course - David Bombal
+3) Network Programmability and Automation - O'Reilly
+4) DEVASC 200-901 OCG - CiscoPress
+5) CCNA 200-301 OCG - CiscoPress
